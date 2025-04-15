@@ -88,7 +88,7 @@ async function Brazzers(canvaimage, canvaimage2, canvaimage3, canvaimage4, canva
     const img4 = await canvas.loadImage(canvaimage4);
     const img5 = await canvas.loadImage(canvaimage5);
     const img6 = await canvas.loadImage(canvaimage);
-    const bg = await canvas.loadImage(`${__dirname}/media/girl.png`);
+    const bg = await canvas.loadImage(`${__dirname}/Cache/girl.png`);
     const cc = canvas.createCanvas(bg.width, bg.height);
     const ctx = cc.getContext('2d');
     ctx.drawImage(bg, 0, 0, cc.width, cc.height);
